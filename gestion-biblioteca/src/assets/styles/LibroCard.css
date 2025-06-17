@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .formulario {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 25px;
+    padding: 12px;
+    border: none;
+    background-color: #2980b9;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1f6391;
+}
+
+.usb-stat-card {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: var(--usb-radius-md);
+    background-color: var(--usb-white);
+    box-shadow: var(--usb-shadow-md);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.usb-stat-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--usb-shadow-lg);
+    border-color: var(--usb-secondary);
+}
